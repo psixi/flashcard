@@ -8,6 +8,14 @@ p {
 
 .col-sm-3 {
   border-style: solid;
-  width:20%;
   margin-left:1%;
+  border-radius: 15%;
+  width: 20%;
 }
+
+.test p {
+  color: blue;
+}
+
+
+/*trying to figure out correct selectores

@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $('h2').click(function() {
-  console.log('click1');
-  $(".phide").removeClass();
+  $(".test").click(function() {
+    $(this).find("p").toggleClass("phide");
   });
+
 });
